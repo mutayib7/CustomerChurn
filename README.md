@@ -15,18 +15,18 @@ Predict whether a telecom customer will churn based on their tenure, subscriptio
 encoded categorical multi-valued features using one-hot encoding
 - Models trained and evaluated:
   ○ Baseline XGBOOST Classifier
-- Handled class imbalance using:
+### **Handled class imbalance using:**
 - XGBOOST + Threshold
 - XGBOOST + SMOTE
 - XGBOOST + ROSE
 - XGBOOST + RUS
 - XGBOOST tuned using RandomizedSearchCV + RUS
 - XGBOOST tuned using RandomizedSearchCV + Threshold
-- Evaluation Metric: Recall,Precision,F1-Score
+### Evaluation Metric: Recall,Precision,F1-Score
 
 ## Results
 
-- Model Performance(for class 1 only): 
+### **Model Performance(for class 1 only):** 
 - Baseline XGBOOST: Recall:0.51 Precicion:0.59 F1-Score:0.55
 - XGBOOST + Threshold: Recall:0.72 Precicion:0.48 F1-Score:0.58
 - XGBOOST + SMOTE:  Recall:0.58 Precicion:0.53 F1-Score:0.55
